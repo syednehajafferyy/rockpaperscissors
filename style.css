@@ -89,20 +89,19 @@ button:hover {
 @media (max-width: 480px) {
     .choices {
         flex-wrap: nowrap;
-        overflow-x: auto;
-        max-width: 100%;
+        justify-content: center;
         gap: 10px;
+        width: 100%;
     }
 
     button {
-        font-size: 2.5rem;
-        min-width: 90px;
-        padding: 8px 12px;
-        flex-shrink: 0;
+        font-size: 2rem;
+        min-width: 80px;
+        padding: 5px 10px;
     }
 
     h1 {
-        font-size: 1.6em;
+        font-size: 1.5em;
     }
 
     #resultDisplay {
@@ -114,4 +113,5 @@ button:hover {
         font-size: 1rem;
     }
 }
+
 
