@@ -92,9 +92,9 @@ button:hover {
     }
 
     button {
-        font-size: 3rem;
+        font-size: 4rem;
         min-width: 80px;
-        padding: 8px 16px;
+        padding: 7px 14px;
     }
 
     #resultDisplay {
