@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgb(249, 234, 250);
+}
+
+h1 {
+    color: rgb(235, 59, 167);
+    font-size: 3em;
+    text-align: center;
+}
+
+.choices {
+    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    font-size: 7rem;
+    min-width: 120px;
+    border-radius: 250px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(252, 184, 246);
+    transition: background-color 0.5s ease, box-shadow 0.3s ease;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: none;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: rgb(201, 128, 204);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+#playerDisplay,
+#computerDisplay {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#resultDisplay {
+    font-size: 3rem;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.greenText {
+    color: green;
+}
+
+.redText {
+    color: red;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2em;
+    }
+
+    button {
+        font-size: 4rem;
+        min-width: 100px;
+    }
+
+    #resultDisplay {
+        font-size: 2.5rem;
+    }
+
+    #playerDisplay,
+    #computerDisplay {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8em;
+    }
+
+    button {
+        font-size: 3rem;
+        min-width: 80px;
+        padding: 8px 16px;
+    }
+
+    #resultDisplay {
+        font-size: 2rem;
+    }
+
+    #playerDisplay,
+    #computerDisplay {
+        font-size: 1rem;
+    }
+}
