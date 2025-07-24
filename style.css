@@ -106,6 +106,23 @@ button:hover {
         font-size: 1rem;
     }
 }
+@media (max-width: 320px) {
+    h1 {
+        font-size: 1.5em;
+    }
 
+    button {
+        font-size: 2.5rem;
+        min-width: 60px;
+        padding: 6px 12px;
+    }
 
+    #resultDisplay {
+        font-size: 1.8rem;
+    }
 
+    #playerDisplay,
+    #computerDisplay {
+        font-size: 0.9rem;
+    }
+}
